@@ -1,9 +1,42 @@
 .message {
+    background-color: greenyellow;
     display: flex;
-    flex-direction: row;
+    align-items: end;
+    width: 500px;
+
 }
 
 .message img {
+    display: flex;
     width: 50px;
     height: 50px;
+    border-radius: 30px;
+    margin: 1em;
+
+}
+
+.text {
+    width: 300px;
+    background-color: forestgreen;
+    margin: 1em;
+    padding: 10px;
+    border-radius: 20px 20px 20px 0px;
+    position: relative;
+}
+
+.text::after {
+    position: absolute;
+    content: '';
+    left: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid forestgreen;
+    border-left: 20px solid transparent;
+}
+
+.time {
+    float: right;
+    margin: 10px 10px 0px 0px;
+
 }
