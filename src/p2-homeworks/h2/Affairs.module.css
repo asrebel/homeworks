@@ -1,3 +1,44 @@
-.someClass {
+.title {
+    color: darkcyan;
+    margin: 20px;
+}
 
+.button {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    background-color:darkcyan;
+    cursor: pointer;
+    border-radius: 50%;
+    color: aquamarine;
+}
+
+.button:active {
+    background: #007dff;
+}
+
+.active {
+    background: #007dff;
+}
+
+.affair {
+    display: flex;
+}
+
+.item {
+    margin: 10px;
+    width: 150px;
+    color: aquamarine;
+}
+
+.high {
+    color: #ff2a23;
+}
+
+.middle {
+    color: yellow;
+}
+
+.low {
+    color: green;
 }

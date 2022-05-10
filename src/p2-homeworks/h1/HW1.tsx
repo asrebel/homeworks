@@ -1,18 +1,19 @@
 import React from 'react'
 import Message from './Message'
+import s from './HW1.module.css'
 
 const messageData = {
-    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-    name: 'Alexander',
-    message: 'Yahahahaha!!!',
-    time: '22:00',
+    avatar: 'https://pixelbox.ru/wp-content/uploads/2020/12/ava-vk-cats-92.jpg',
+    name: 'asrebel',
+    message: 'Good day! It is my first HomeWork! Yeah!',
+    time: '08:08',
 }
 
 const HW1 = () => {
     return (
         <div>
             <hr/>
-            homeworks 1
+            <h3 className={s.title}>homeworks 1</h3>
 
             {/*should work (должно работать)*/}
 
