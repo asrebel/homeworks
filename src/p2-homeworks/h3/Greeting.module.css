@@ -1,8 +1,57 @@
-.someClass {
+.title {
+    color: darkcyan;
+    margin: 20px;
+}
 
+.greeting {
+    display: flex;
+    align-items: flex-start;
 }
 
 .error {
-    border: 1px solid red;
+    color: red;
+    height: 30px;
+    margin-left: 10px;
+}
 
+.input {
+    margin: 18px;
+    background: darkcyan;
+    color: aquamarine;
+}
+
+.input:focus {
+    outline: none;
+    border: darkcyan solid 2px;
+}
+
+.errorInput {
+    margin: 10px;
+    background: #ff2a23;
+    color: yellow;
+    outline: none;
+}
+
+.button {
+    margin: 10px ;
+    width: 40px;
+    outline: none;
+    height: 40px;
+    background-color:darkcyan;
+    cursor: pointer;
+    border-radius: 50%;
+    color: aquamarine;
+}
+
+.button:active {
+    background: #007dff;
+}
+
+.button:disabled {
+    color: black;
+}
+
+.count {
+    color: aquamarine;
+    margin: 18px;
 }
