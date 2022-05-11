@@ -1,8 +1,8 @@
 .header {
     display: flex;
-    width: 280px;
+    width: 350px;
     transition-duration: 500ms;
-    transform: translate(-220px);
+    transform: translate(-230px);
 }
 
 .header:hover {
@@ -21,14 +21,14 @@
 }
 
 .active {
-color: #007dff;
+    color: #007dff;
 }
 
 .block {
-    width: 21px;
-    height: 21px;
+    width: 35px;
+    height: 35px;
 
-    margin: 10px 10px 10px 20px;
+    margin-left: 40px;
     background: darkcyan;
     border-radius: 50%;
 }
