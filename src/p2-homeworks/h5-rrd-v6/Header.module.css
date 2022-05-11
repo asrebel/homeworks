@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    width: 280px;
+    transition-duration: 500ms;
+    transform: translate(-220px);
+}
+
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0px);
+}
+
+.link {
+    text-decoration: none;
+    margin: 10px;
+    color: darkcyan;
+}
+
+.link:hover {
+    color: aquamarine;
+}
+
+.active {
+color: #007dff;
+}
+
+.block {
+    width: 21px;
+    height: 21px;
+
+    margin: 10px 10px 10px 20px;
+    background: darkcyan;
+    border-radius: 50%;
+}

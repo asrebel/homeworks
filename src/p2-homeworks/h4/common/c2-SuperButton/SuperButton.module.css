@@ -1,7 +1,17 @@
 .default {
-
+    background: darkcyan;
+    color: aquamarine;
+    outline: none;
 }
 
 .red {
     background: red;
+}
+
+.button {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+
 }

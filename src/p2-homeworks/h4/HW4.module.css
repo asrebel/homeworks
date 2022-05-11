@@ -1,3 +1,8 @@
+.title {
+    color: darkcyan;
+    margin: 20px;
+}
+
 .blue {
     border-bottom: 5px solid blue;
 }
